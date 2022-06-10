@@ -1,6 +1,7 @@
 package acciones;
 public interface Acciones {
-    public void Encender();
-    public void Frenar();
-    public void Apagar();
+    public final int cod = 123;
+    public void encender();
+    public void frenar();
+    public void apagar();
 }
