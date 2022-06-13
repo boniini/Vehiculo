@@ -1,10 +1,8 @@
 package clases;
-public class Moto {
+import acciones.Acciones;
+public class Moto extends Vehiculo implements Acciones{
     private int velocidadMaxima;
-    protected void Moto();
-    protected int get();
-    protected void set();
-
+    
     public Moto(int velocidadMaxima) {
         this.velocidadMaxima = velocidadMaxima;
     }
@@ -16,5 +14,20 @@ public class Moto {
     public void setVelocidadMaxima(int velocidadMaxima) {
         this.velocidadMaxima = velocidadMaxima;
     }
+
+    @Override
+    public void encender() {
+        System.out.println("");
+    }
+
+    @Override
+    public void frenar() {
+        System.out.println("");
+    }
+
+    @Override
+    public void apagar() {
+        System.out.println("");
+    }
     
-   }
+}

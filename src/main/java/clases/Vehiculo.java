@@ -9,7 +9,7 @@ public class Vehiculo {
         this.modelo = modelo;
         this.anioFabricacion = anioFabricacion;
     }
-
+    public abstract void acelerar();
     public String getNombre() {
         return nombre;
     }
