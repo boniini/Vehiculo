@@ -1,5 +1,5 @@
 package clases;
-public class Vehiculo {
+public abstract class Vehiculo {
     protected String nombre;
     protected String modelo;
     protected int anioFabricacion;
@@ -10,6 +10,7 @@ public class Vehiculo {
         this.anioFabricacion = anioFabricacion;
     }
     public abstract void acelerar();
+    
     public String getNombre() {
         return nombre;
     }
